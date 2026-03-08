@@ -1,0 +1,28 @@
+body {
+    background: black;
+}
+
+.monkey {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(5);
+    
+    animation: growSpin 9s forwards ease-in;
+}
+
+@keyframes growSpin {
+
+    0% {
+        transform: translate(-50%, -50%) scale(0.1) rotate(0deg);
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(10) rotate(1080deg);
+    }
+
+}

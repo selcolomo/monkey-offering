@@ -1,0 +1,16 @@
+body {background-color: rgb(9, 69, 9);}
+
+.floating-button-div {
+    position: fixed; bottom: 10px; right: 10px;
+    transition: all 0.3s ease;
+}
+
+.banana {
+    font-size: 100px;
+    text-decoration: none;
+    
+}
+
+.banana:hover {
+    background-color: #45a049;
+}
